@@ -5,6 +5,7 @@ interface ContainerProps {
 }
 export const Container = styled.aside<ContainerProps>`
   position: fixed;
+  z-index: 1;
   top: 60px;
   right: ${(props) => (props.showCart ? "0" : "-350px")};
 

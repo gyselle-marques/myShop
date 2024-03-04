@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.header`
   background-color: #000080;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 `;
 
 export const Wrapper = styled.div`
